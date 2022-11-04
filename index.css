@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 320px;
+    margin: 0px auto;
+    background: #fff;
+
+}
+
+.header--img {
+    height: 22px;
+    padding: 10px;
+}
+
+.header--logo {
+    height: 25px;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main--img {
+    width: 310px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+    top: -65px;
+}
+
+
+.main--section {
+    margin-bottom: 0px;
+}
+
+.main--text {
+    position: relative;
+    top: -65px;
+    left: 15px;
+    color: white;
+    width: 290px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 2px;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.btn--section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.btn-img-box {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+    box-shadow: 1px 2px 15px #aaa;
+    cursor: pointer;
+}
+
+.cross:hover,
+.cross:hover {
+    background: #FFE7EF;
+    transform: scale(1.07);
+}
+
+.heart:hover,
+.heart:hover {
+    background: #DBFFF4;
+    transform: scale(1.07);
+}
+
+.arrow-right:hover,
+.arrow-right:hover {
+    background: #ecf1f0;
+    transform: scale(1.09);
+}
+
+.arrow-left:hover,
+.arrow-left:hover {
+    background: #ecf1f0;
+    transform: scale(1.09);
+}
+
+.btn--img {
+    height: 20px;
+}
+
+.stamp {
+    font-size: 50px;
+    font-weight: 600;
+    border: 4px solid;
+    width: 140px;
+    border-radius: 7px;
+    text-align: center;
+    rotate: -30deg;
+    top: 39px;
+    left: 10px;
+    z-index: 200;
+    position: relative;
+}
